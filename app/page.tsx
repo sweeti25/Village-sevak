@@ -47,6 +47,7 @@ const [userEmail, setUserEmail] = useState<string | null>(null);
     'Water Supply', 'Electricity', 'Roads', 'Sanitation', 'Street Lights', 
     'Garbage', 'Parks', 'Public Safety', 'Others'
   ];
+  
 
   const priorities = [
     { value: 'low', label: 'Low', color: 'green' },
